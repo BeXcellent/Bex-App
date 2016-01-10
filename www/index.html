@@ -10,12 +10,25 @@
 </head>
 <body>
     <div class="main">
-        <img src="img/loading.gif" height="100" width="100" class="loading" id="mainSpinner">
-        <iframe src="http://forum.bexcellent.org.uk" onload="document.getElementById('mainSpinner').style.display = 'none'"></iframe>
+        <div id="mainSpinner" class="sk-circle">
+          <div class="sk-circle1 sk-child"></div>
+          <div class="sk-circle2 sk-child"></div>
+          <div class="sk-circle3 sk-child"></div>
+          <div class="sk-circle4 sk-child"></div>
+          <div class="sk-circle5 sk-child"></div>
+          <div class="sk-circle6 sk-child"></div>
+          <div class="sk-circle7 sk-child"></div>
+          <div class="sk-circle8 sk-child"></div>
+          <div class="sk-circle9 sk-child"></div>
+          <div class="sk-circle10 sk-child"></div>
+          <div class="sk-circle11 sk-child"></div>
+          <div class="sk-circle12 sk-child"></div>
+      </div>
+      <iframe src="http://forum.bexcellent.org.uk" onload="document.getElementById('mainSpinner').style.display = 'none'"></iframe>
   </div>
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
     app.initialize();
 </script>
 </body>

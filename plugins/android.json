@@ -12,6 +12,9 @@
         },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "org.transistorsoft.cordova.plugin.background.fetch": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
     "dependent_plugins": {}

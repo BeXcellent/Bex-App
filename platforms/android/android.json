@@ -26,7 +26,9 @@
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
                             "count": 1
                         }
-                    ]
+                    ],
+                    "/manifest": [],
+                    "/manifest/application": []
                 }
             }
         }
@@ -36,6 +38,9 @@
             "PACKAGE_NAME": "com.phonegap.helloworld"
         },
         "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "org.transistorsoft.cordova.plugin.background.fetch": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
         }
     },
@@ -67,6 +72,7 @@
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.0",
-        "cordova-plugin-network-information": "1.1.0"
+        "cordova-plugin-network-information": "1.1.0",
+        "org.transistorsoft.cordova.plugin.background.fetch": "2.0.4"
     }
 }
